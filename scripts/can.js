@@ -10,5 +10,5 @@ document.onclick = function() {
 
     ctx.fillStyle = 'red';
     // fillRect(x,y,width,height)
-    ctx.fillRect(30,30,100,100);
+    ctx.fillRect(10,10,100,100);
 }
