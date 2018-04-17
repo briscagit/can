@@ -1,3 +1,7 @@
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
 document.onclick = function() {
     var inlineCanvas = document.getElementById("inlineCanvas");
     var canvas = document.createElement("canvas");
