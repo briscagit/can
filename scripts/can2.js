@@ -1,4 +1,4 @@
-var canvas = document.getElementById('canvas');
+var canvas = document.getElementById('inlineCanvas');
 var ctx = canvas.getContext('2d');
 
 ctx.fillStyle = 'green';
