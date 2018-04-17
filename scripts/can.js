@@ -5,7 +5,7 @@ function getRandomInt(max) {
 document.onclick = function() {
     var inlineCanvas = document.getElementById("inlineCanvas");
     var canvas = document.createElement("canvas");
-    document.body.insertBefore(inlineCanvas,canvas);
+    document.body.insertBefore(canvas,inlineCanvas);
     var ctx = canvas.getContext('2d');
 
     ctx.fillStyle = 'red';
