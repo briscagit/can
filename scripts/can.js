@@ -1,5 +1,10 @@
 document.onclick = function() {
+    var inlineCanvas = document.getElementById("inlineCanvas");
     var canvas = document.createElement("canvas");
-    var body = document.querySelector('body');
-    body.lastElementChild.
+    document.body.insertBefore(inlineCanvas,canvas);
+    var ctx = canvas.getContext('2d');
+
+    ctx.fillStyle = 'red';
+    // fillRect(x,y,width,height)
+    ctx.fillRect(30,30,100,100);
 }
